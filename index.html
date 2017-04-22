@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>index</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="icon" type="image/x-icon" href="img/indexIcon.ico">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div id="main">
+		<a href="#top"></a>
+		<!-- 头部 -->
+		<div id="header-content">
+			<div><a href="#">圣诞狂欢节</a></div>
+			<form action="#">
+				<input id="search-text" type="text" name="search-text" placeholder="请输入关键字" />
+				<input type="submit" value="&#xe64b;搜索"/>
+				<ul id="search-list">
+					<li><a href="#">云南省大理白族自治州</a></li>
+					<li><a href="#">云南省大理白族自治州大理市</a></li>
+					<li><a href="#">南涧彝族自治县</a></li>
+					<li><a href="#">巍山彝族回族自治县</a></li>
+					<li><a href="#">大理白族自治州</a></li>
+				</ul>
+				<span id="search-list-toggle">5</span>
+			</form>
+			<!-- <ul id="hot-search">
+				<li><a href="#">123</a></li>
+				<li><a href="#">123</a></li>
+				<li><a href="#">123</a></li>
+			</ul> -->
+			<ul id="attachment">
+				<li>
+					<a href="#">&#xe66e;一键登录</a>
+				</li>
+			    <li>
+			    	<a href="#" class="qrcode">&#xe601;二维码</a>
+					<img src="img/QRCode.png" alt="二维码"/>
+		    	</li>
+			</ul>
+		</div>
+		<!-- 侧边栏 -->
+		<div id="aside-navbar">
+			<span id="toggle-control" class="opend">&gt;&gt;</span>
+			<div id="aside-content-list">
+				<div class="aside-content-list-item">
+					<span class="market-list">&#xe600;</span>
+					<i class="market-list-text">购物车</i>
+				</div>
+				<div class="aside-content-list-item">
+					<span class="market-list">&#xe602;</span>
+					<i class="market-list-text">热卖专场</i>
+				</div>
+				<div class="aside-content-list-item">
+					<span class="market-list">&#xe62d;</span>
+					<i class="market-list-text">我的优惠</i>
+				</div>
+				<div class="aside-content-list-item">
+					<span class="market-list">&#xe603;</span>
+					<i class="market-list-text">我的收藏</i>
+				</div>
+				<div class="aside-content-list-item">
+					<span class="market-list">&#xe64d;</span>
+					<i class="market-list-text">浏览记录</i>
+				</div>
+		    </div>
+			<span id="back-top">&#xe604;</span>
+		</div>
+		<!-- 广告栏 -->
+		<div id="adv-navbar">
+			<img src="img/adv/adv1.jpg" alt="adv1"/>
+			<img src="img/adv/adv2.jpg" alt="adv2"/>
+			<img src="img/adv/adv3.jpg" alt="adv3"/>
+			<img src="img/adv/adv4.jpg" alt="adv4"/>
+			<img src="img/adv/adv5.jpg" alt="adv5"/>
+			<img src="img/adv/adv6.jpg" alt="adv6"/>
+			<img src="img/adv/adv7.jpg" alt="adv7"/>
+			<ul id="navbar-menu">
+				<li>
+					<div class="menu-link"><a href="#">手机/电脑</a></div>
+					<div class="menu-bg">
+						<ul class="total-type-list">
+							<li>
+								<span class="smallType">热门手机&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>小米</li>
+									<li>iPhone</li>
+									<li>魅族</li>
+									<li>荣耀</li>
+									<li>乐视</li>
+									<li>华为</li>
+									<li>vivo</li>
+									<li>三星</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">特色手机&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>YunOS</li>
+									<li>千元指纹</li>
+									<li>双卡双待</li>
+									<li>大屏自拍</li>
+									<li>移动联通电信合约机</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">电脑整机&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>笔记本</li>
+									<li>平板电脑</li>
+									<li>台式机</li>
+									<li>一体机</li>
+									<li>DIY</li>
+									<li>游戏本</li>
+									<li>Surface</li>
+									<li>iPad</li>
+								</ul>
+							</li> 
+							<li>
+								<span class="smallType">手机特惠&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>打折秒杀</li>
+									<li>新品特卖</li>
+									<li>实惠精选</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">硬件存储&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>显示器</li>
+									<li>机械键盘</li>
+									<li>固态硬盘</li>
+									<li>CPU</li>
+									<li>显卡</li>
+									<li>主板</li>
+									<li>高速U盘</li>
+									<li>路由器</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+			 		<div class="menu-link"><a href="#">家具建材</a></div>
+					<div class="menu-bg">
+						<ul class="total-type-list">
+							<li>
+								<span class="smallType">成套家具&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>客厅成套家具</li>
+									<li>餐厅成套家具</li>
+									<li>卧室成套家具</li>
+									<li>儿童成套家具</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">客厅餐厅&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>沙发布艺</li>
+									<li>沙发皮艺</li>
+									<li>沙发实木</li>
+									<li>沙发懒人</li>
+									<li>沙发电视柜</li>
+									<li>茶几鞋柜</li>
+									<li>单人沙发</li>
+									<li>餐桌餐椅</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">卧室家具&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>床衣柜床垫</li>
+									<li>简易衣柜乳胶床垫</li>
+									<li>弹簧床垫棕床垫</li>
+									<li>实木床双人床</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">书房儿童&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>电脑桌</li>
+									<li>电脑椅</li>
+									<li>书桌</li>
+									<li>办公桌</li>
+									<li>书架</li>
+									<li>书柜</li>
+									<li>连体书桌</li>
+									<li>柜折叠床/椅花架儿童床</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">家装主材&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>强化复合地板</li>
+									<li>瓷砖墙纸</li>
+									<li>涂料瓷砖</li>
+									<li>背景墙油漆</li>
+									<li>地板硅藻泥</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			 	</li>
+			 	<li>
+			 		<div class="menu-link"><a href="#">零食/进口</a></div>
+					<div class="menu-bg">
+						<ul class="total-type-list">
+							<li>
+								<span class="smallType">进口食品&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>进口零食</li>
+									<li>进口巧克力</li>
+									<li>进口饼干</li>
+									<li>进口糖果</li>
+									<li>进口坚果</li>
+									<li>进口果干</li>
+									<li>进口橄榄油</li>
+									<li>进口牛奶</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">休闲零食&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>零食坚果</li>
+									<li>饼干蛋糕</li>
+									<li>红枣巧克力</li>
+									<li>猪肉脯</li>
+									<li>膨化食品</li>
+									<li>蜜饯鸭脖</li>
+									<li>糖果豆干</li>
+									<li>曲奇海苔</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">乳品冲饮&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>牛奶酸奶</li>
+									<li>速溶咖啡</li>
+									<li>滤挂咖啡</li>
+									<li>麦片奶茶</li>
+									<li>柚子茶</li>
+									<li>果汁汽水</li>
+									<li>功能饮料</li>
+									<li>饮用水</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">粮油速食&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>香菇方便面</li>
+									<li>手抓饼</li>
+									<li>黄油</li>
+									<li>蛋挞</li>
+									<li>粽子寿司</li>
+									<li>意大利面皮</li>
+									<li>进口泡面</li>
+									<li>红糖</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">生鲜水果&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>牛排</li>
+									<li>芒果</li>
+									<li>奇异果</li>
+									<li>三文鱼</li>
+									<li>苹果</li>
+									<li>榴莲</li>
+									<li>牛油果</li>
+									<li>冰淇淋</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			 	</li>
+			 	<li>
+			 		<div class="menu-link"><a href="#">化妆品/护理</a></div>
+					<div class="menu-bg">
+						<ul class="total-type-list">
+							<li>
+								<span class="smallType">护肤品&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>官方直售面膜</li>
+									<li>护肤套装</li>
+									<li>乳液</li>
+									<li>面霜精华液</li>
+									<li>护手霜</li>
+									<li>爽肤水</li>
+									<li>洁面眼霜</li>
+									<li>卸妆身体护理</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">彩妆&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>时尚彩妆</li>
+									<li>香水BB霜</li>
+									<li>美容工具</li>
+									<li>口红</li>
+									<li>隔离粉底粉</li>
+									<li>蜜粉彩妆套装</li>
+									<li唇彩眼影></li>
+									<li>毛膏眼线</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">男士护肤&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>洁面爽肤水</li>
+									<li>乳液/面霜护理套装</li>
+									<li>面膜</li>
+									<li>面部精华眼部护理</li>
+									<li>控油磨砂/去角质</li>
+									<li>防晒唇部护理</li>
+									<li>T区护理</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">肤质推选&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>混合偏油型</li>
+									<li>中性偏干型</li>
+									<li>敏感性</li>
+									<li>干性油性</li>
+									<li>混合型中性</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">美发护发&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>进口洗发水</li>
+									<li>护发素</li>
+									<li>发膜洗护套装</li>
+									<li>护发精油头发造型</li>
+									<li>男性假发</li>
+									<li>假发配件</li>
+									<li>整顶假发</li>
+									<li弹力素染发霜></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			 	</li>
+		 		<li>
+			 		<div class="menu-link"><a href="#">医药保健</a></div>
+					<div class="menu-bg">
+						<ul class="total-type-list">
+							<li>
+								<span class="smallType">保健品&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>营养补充剂</li>
+									<li>芦荟玛卡</li>
+									<li>减肥胶原蛋白</li>
+									<li>维生素C</li>
+									<li>鱼油美容</li>
+									<li>养颜保健食品</li>
+									<li>缓解体力疲劳</li>
+									<li>安神补脑</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">滋补品&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>滋补养生蜂蜜</li>
+									<li>石斛阿胶</li>
+									<li>黑枸杞</li>
+									<li>冬虫夏草</li>
+									<li>青钱柳</li>
+									<li>西洋参</li>
+									<li>人参藏红花蜂胶</li>
+									<li>阿胶糕</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">医药&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>感冒咳嗽</li>
+									<li>腰腿疼痛</li>
+									<li>妇科用药</li>
+									<li>男科用药</li>
+									<li>体检套餐</li>
+									<li>皮炎湿疹</li>
+									<li>血糖仪保健理疗</li>
+									<li>针灸拔罐</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">医疗器械&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>制氧机</li>
+									<li>体温计</li>
+									<li>轮椅胎</li>
+									<li>心仪理疗仪</li>
+									<li>助听器</li>
+									<li>雾化器</li>
+									<li>呼吸机</li>
+									<li>拔罐器</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">隐形眼镜&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>强生美瞳</li>
+									<li>博士伦海</li>
+									<li>昌海俪恩</li>
+									<li>卫康</li>
+									<li>爱尔康</li>
+									<li>视康实瞳日</li>
+									<li>双氧水润眼液</li>
+									<li>硬镜护理液</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			 	</li>
+			 	<li>
+			 		<div class="menu-link"><a href="#">母婴玩具</a></div>
+					<div class="menu-bg">
+						<ul class="total-type-list">
+							<li>
+								<span class="smallType">童装&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>羽绒服</li>
+									<li>裤子</li>
+									<li>儿童内衣裤</li>
+									<li>外套棉服</li>
+									<li>毛衣套装</li>
+									<li>连体衣T恤</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">婴儿服&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>连体衣</li>
+									<li>内衣套装</li>
+									<li>裤子</li>
+									<li>婴儿礼盒</li>
+									<li>外套家居服</li>
+									<li>T恤反穿</li>
+									<li>衣肚兜</li>
+								</ul>
+							</li>
+							<li>
+								<span class="smallType">童鞋&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>运动鞋</li>
+									<li>凉鞋</li>
+									<li>亲子鞋</li>
+									<li>雨靴</li>
+									<li>拖鞋</li>
+									<li>皮鞋</li>
+									<li>帆布鞋</li>
+									<li>棉鞋</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			 	</li>
+			 	<li>
+			 		<div class="menu-link"><a href="#">图书音像</a></div>
+					<div class="menu-bg">
+						<ul class="total-type-list">
+							<li>
+								<span class="smallType">儿童读物&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>畅销童书</li>
+									<li>绘本儿童</li>
+									<li>文学启蒙认知</li>
+									<li>益智游戏</li>
+									<li>幼儿科普</li>
+									<li>童话书</li>
+								</ul>
+							</li>
+ 
+							<li>
+								<span class="smallType">畅销小说&nbsp;&gt;</span>
+								<ul class="small-type-list">
+									<li>都市情感</li>
+									<li>穿越架空</li>
+									<li>影视同期</li>
+									<li>科幻小说</li>
+									<li>外国文学</li>
+									<li>畅销小说</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			 	</li>
+			</ul>
+			<span id="left-toggle">&lt;</span>
+	        <span id="right-toggle">&gt;</span>
+			<ul id="toggle-btn">
+				<li class="selected"></li><!--
+			 --><li></li><!--
+			 --><li></li><!--
+			 --><li></li><!--
+			 --><li></li><!--
+			 --><li></li><!--
+			 --><li></li>
+			</ul>
+		</div>
+		<!-- 商品列表栏 -->
+		<div id="hot-product-list">
+			<h2>热卖专场</h2>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="img/product/hot/phone.png">
+						<span>
+							华为手机<br>
+							一个让华人傲娇的品牌 <br>
+							<em><b>￥</b><b>200.5</b><b>4折</b><b>/</b><b>包邮</b></em>
+							<em><b>hot</b><b>折800</b><b>已售出850件</b></em>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/hot/cloth.png">
+						<span>
+							时尚女装<br>
+							冬季特献 <br>
+							<em><b>￥</b><b>200.5</b><b>4折</b><b>/</b><b>包邮</b></em>
+							<em><b>hot</b><b>折800</b><b>已售出850件</b></em>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/hot/cofee.png">
+						<span>
+							速溶巧克力<br>
+							熬夜上班不二的选择 <br>
+							<em><b>￥</b><b>200.5</b><b>4折</b><b>/</b><b>包邮</b></em>
+							<em><b>hot</b><b>折800</b><b>已售出850件</b></em>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/hot/cosmetic.png">
+						<span>
+							菜瓜水<br>
+							滋润你的肌肤 <br>
+							<em><b>￥</b><b>200.5</b><b>4折</b><b>/</b><b>包邮</b></em>
+							<em><b>hot</b><b>折800</b><b>已售出850件</b></em>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/hot/pc.png">
+						<span>
+							戴尔笔记本<br>
+							全球销量第一的电脑 <br>
+							<em><b>￥</b><b>200.5</b><b>4折</b><b>/</b><b>包邮</b></em>
+							<em><b>hot</b><b>折800</b><b>已售出850件</b></em>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/hot/phone2.png">
+						<span>
+							魅族手机<br>
+							青年良品 <br>
+							<em><b>￥</b><b>200.5</b><b>4折</b><b>/</b><b>包邮</b></em>
+							<em><b>hot</b><b>折800</b><b>已售出850件</b></em>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/hot/tv.png">
+						<span>
+							小米电视<br>
+							2k分辨率，点燃你的视觉 <br>
+							<em><b>￥</b><b>200.5</b><b>4折</b><b>/</b><b>包邮</b></em>
+							<em><b>hot</b><b>折800</b><b>已售出850件</b></em>
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/hot/troy.png">
+						<span>
+							儿童玩具<br>
+							激发儿童想象 <br>
+							<em><b>￥</b><b>200.5</b><b>4折</b><b>/</b><b>包邮</b></em>
+							<em><b>hot</b><b>折800</b><b>已售出850件</b></em>
+						</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="normal-product-list">
+			<h2>普通卖场</h2>
+			<ul>
+				<li>
+					<a href="#">
+						<img src="img/product/normal/shoe.png">
+						<span>男款皮鞋</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/normal/shoe2.png">
+						<span>韩款皮鞋</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/normal/cloth2.png">
+						<span>韩款外衣</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/normal/tea.png">
+						<span>西湖龙井擦茶</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/normal/shower.png">
+						<span>进口沐浴露</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/normal/pc2.png">
+						<span>电脑主机</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/normal/refrigerator.png">
+						<span>台式冰箱</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="img/product/normal/fruit.png">
+						<span>水果干货</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 页脚 -->
+		<div id="footer">
+			Copyright &copy; 2016-2017 圣诞狂欢节 Inc. <br>
+			友情链接：
+			<ul>
+				<li><a href="#">&#xe605;</a></li>
+				<li><a href="#">&#xe626;</a></li>
+				<li><a href="#">&#xe606;</a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
